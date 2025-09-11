@@ -4,7 +4,7 @@ export default function UserProfileIndexPage({ params }) {
   console.log("params is :", params?.username);
   return (
     <>
-      <h1>Hello This is UserProfileIndexPage page</h1>
+      <h1>Hello this is Raghuveer chauhan</h1>
     </>
   );
 }
