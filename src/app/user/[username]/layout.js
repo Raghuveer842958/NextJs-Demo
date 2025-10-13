@@ -10,6 +10,7 @@ export default function UserLayout({ children, params }) {
         <Link href={`/user/${params?.username}`}>Overview</Link> |
         <Link href={`/user/${params?.username}/profile`}>Profile</Link> |
         <Link href={`/user/${params?.username}/setting`}>Setting</Link>
+        <Link href={`/user/${params?.username}/setting`}>Change Password</Link>
       </nav>
       <hr />
       <div>{children}</div>
